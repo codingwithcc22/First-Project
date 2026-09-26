@@ -259,3 +259,16 @@ section#about {
   color: #333;
   --color-accent: #ffd700;
 }
+
+/*Portfolio section*/
+.portfolio_logos img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin: var(--space-s);
+}
+
+section#portfolio {
+  background-color: #ffffff;
+  color: #333;
+  --color-accent: #ffd700;
