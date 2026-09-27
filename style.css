@@ -215,8 +215,7 @@ section {
 }
 
 section#hero {
-  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-    url("/assets/background_image.jpg");
+  background: #F5FFFA;
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
