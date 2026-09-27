@@ -215,7 +215,7 @@ section {
 }
 
 section#hero {
-  linear-gradient: (0deg,#0E6B66, #20B2AA);
+  background: linear-gradient(0deg, #0E6B66, #20B2AA);
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
