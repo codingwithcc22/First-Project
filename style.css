@@ -280,7 +280,7 @@ section#about {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.85);
     justify-content: center;
     align-items: center;
 }

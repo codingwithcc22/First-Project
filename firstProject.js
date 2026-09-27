@@ -14,7 +14,7 @@ backToTopBtn.addEventListener("click", () => {
 
 //click to enlarge image
 const lightbox = document.querySelector(".lightbox");
-const lightboxImg = document.querySelector(".lightbox-img");
+const lightboxImg = document.querySelector(".lightbox_img");
 const portfolioImgs = document.querySelectorAll(".portfolio_logos img");
 
 portfolioImgs.forEach(img => {
