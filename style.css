@@ -260,6 +260,7 @@ section#about {
   --color-accent: #ffd700;
 }
 
+/*back to top button styling*/
 .back_to_top {
   position: fixed;
   bottom: var(--space-l);
@@ -272,6 +273,25 @@ section#about {
 .back_to_top.visible {
     opacity: 1;
     pointer-events: auto;
+}
+
+/*Enlarge img styling*/
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox.open {
+    display: flex;
+}
+
+.lightbox_img {
+    max-width: 90%;
+    max-height: 90%;
 }
 /*Portfolio section*/
 .portfolio_logos img {

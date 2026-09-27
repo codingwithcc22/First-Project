@@ -1,5 +1,5 @@
 // Back to Top Button
-const backToTopBtn = document.querySelector(".back-to-top");
+const backToTopBtn = document.querySelector(".back_to_top");
 
 window.addEventListener("scroll", () => {
     backToTopBtn.classList.toggle("visible", window.scrollY > 300);
@@ -10,7 +10,7 @@ backToTopBtn.addEventListener("click", () => {
         top: 0,
         behavior: "smooth"
     });
-}
+});
 
 //click to enlarge image
 const lightbox = document.querySelector(".lightbox");
