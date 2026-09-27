@@ -42,6 +42,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   letter-spacing: -0.01em;
+  background-color: #F5FFFA;
 }
 
 /* All elements that don't have a class get default styles */
@@ -187,7 +188,7 @@ h5,
 /* Style the header */
 .site_header {
   padding: var(--space-s) 0;
-  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9));
+  background: #20B2AA;
 }
 
 .site_header_nav ul li a {
@@ -255,7 +256,7 @@ section#hero {
 }
 
 section#about {
-  background-color: #ffffff;
+  background-color: #F5FFFA;
   color: #333;
   --color-accent: #ffd700;
 }
@@ -306,7 +307,7 @@ section#about {
 }
 
 section#portfolio {
-  background-color: #ffffff;
+  background-color: #F5FFFA;
   color: #333;
   --color-accent: #ffd700;
 }
