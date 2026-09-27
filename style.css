@@ -260,6 +260,19 @@ section#about {
   --color-accent: #ffd700;
 }
 
+.back_to_top {
+  position: fixed;
+  bottom: var(--space-l);
+  right: var(--space-l);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.back_to_top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
 /*Portfolio section*/
 .portfolio_logos img {
   width: 400px;
@@ -272,7 +285,7 @@ section#portfolio {
   background-color: #ffffff;
   color: #333;
   --color-accent: #ffd700;
-
+}
   /*Add travel section styling*/
   /*Add career section styling*/
 
